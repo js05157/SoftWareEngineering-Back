@@ -149,23 +149,3 @@ src/main/java/com/swengineer/sportsmatch/
 src/main/resources/   애플리케이션 설정
 mysql/                테이블별 SQL 참고 파일
 ```
-
-## 실행 방법
-
-JDK 17과 MySQL이 필요합니다. 비밀번호 같은 개인 설정은 저장소에 추가하지 말고 환경 변수로 주입합니다. 아래는 Windows PowerShell 기준입니다.
-
-```powershell
-git clone https://github.com/js05157/SoftWareEngineering-Back.git
-cd SoftWareEngineering-Back
-git switch merge-branch
-
-$env:SPRING_DATASOURCE_URL="jdbc:mysql://localhost:3306/sportsmatch?serverTimezone=Asia/Seoul&characterEncoding=UTF-8"
-$env:SPRING_DATASOURCE_USERNAME="YOUR_MYSQL_USERNAME"
-$env:SPRING_DATASOURCE_PASSWORD="YOUR_MYSQL_PASSWORD"
-$env:SERVER_SSL_ENABLED="false"
-$env:SERVER_PORT="8080"
-
-.\gradlew.bat bootRun
-```
-
-로컬 실행 시 API 서버는 `http://localhost:8080`에서 확인할 수 있습니다. 테스트는 같은 데이터베이스 설정을 주입한 뒤 `.\gradlew.bat test`로 실행합니다.

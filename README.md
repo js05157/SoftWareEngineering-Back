@@ -13,9 +13,20 @@
 ![Gradle](https://img.shields.io/badge/Gradle-8-02303A?style=flat-square&logo=gradle&logoColor=white)
 ![Swagger](https://img.shields.io/badge/OpenAPI-Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 
-[프로젝트 개요](#프로젝트-개요) · [담당 업무](#담당-업무) · [주요 기능](#주요-기능) · [설계와 구현](#설계와-구현) · [실행 방법](#실행-방법)
+[프로젝트 개요](#프로젝트-개요) · [실행 화면](#실행-화면) · [담당 업무](#담당-업무) · [주요 기능](#주요-기능) · [설계와 구현](#설계와-구현) · [실행 방법](#실행-방법)
 
 </div>
+
+## 실행 화면
+
+![SportMatch 메인 화면](docs/screenshots/sportmatch-home.png)
+
+<details>
+<summary><strong>회원가입 화면 보기</strong></summary>
+
+![SportMatch 회원가입 화면](docs/screenshots/sportmatch-signup.png)
+
+</details>
 
 ## 프로젝트 개요
 
